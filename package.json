@@ -1,0 +1,30 @@
+{
+  "name": "sajjadlabs-webp",
+  "version": "1.0.0",
+  "description": "Professional CLI tool to convert images to lossless WebP using Sharp",
+  "type": "module",
+  "main": "./bin/cli.js",
+  "bin": {
+    "sl-webp": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "README.md"
+  ],
+  "keywords": [
+    "webp",
+    "converter",
+    "sharp",
+    "image-optimizer",
+    "optimizer",
+    "sajjadlabs",
+    "cli"
+  ],
+  "author": "SajjadLabs",
+  "license": "MIT",
+  "dependencies": {
+    "@clack/prompts": "^1.4.0",
+    "console-log-colors": "^0.5.0",
+    "sharp": "^0.32.6"
+  }
+}
